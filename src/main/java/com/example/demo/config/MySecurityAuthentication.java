@@ -6,9 +6,6 @@ import org.springframework.security.core.GrantedAuthority;
 import java.util.Collection;
 import java.util.Collections;
 
-// https://www.youtube.com/watch?v=GNU-S6pUu1c
-// https://www.youtube.com/watch?v=-CVUzgN2wsE
-
 public class MySecurityAuthentication implements Authentication {
     private static final long serialVersionUID = 1L;
     private final boolean isAuthenticated;
